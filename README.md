@@ -15,5 +15,9 @@ The complete source code is in the file arkanoid.py. You can use both python2 an
 
 - The updated Raspbian
 - [Sense Hat software](https://www.raspberrypi.org/learning/getting-started-with-the-sense-hat/requirements/software/)
-- Installed pygame  
+- Installed the pygame library 
+  ```
+  apt-get install python-pygame
+  apt-get install python3-pygame
+  ```
 

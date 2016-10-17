@@ -1,2 +1,4 @@
 # Pikanoid
-Arkanoid (Breakout) game for RaspBerry Pi and Sense Hat
+
+This is Arkanoid (Breakout) game for the RaspBerry Pi with add-on board Sense Hat.
+It is writen in Python 

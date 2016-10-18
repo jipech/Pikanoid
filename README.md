@@ -53,3 +53,11 @@ If you wanna change any beahviour of the game, you can do it in the start_set() 
 - dir, up - starting direction of the ball (default is up and right) (dir=0 - left, dir= - right, up=1 - up, up=0 - down)
 - bricks - number of the bricks
 - iter - if ball in iter cycles dont touch a brick, the trace of the ball is changed. This is necessary to complet the game.
+
+## Todo
+
+It is possible to add next features:
+- compute the score
+- add the next levels with different design of the wall
+- add the control by the declination of the sense hat
+- change the style or the color of the ball, paddle, wall

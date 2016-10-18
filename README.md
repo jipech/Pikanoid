@@ -42,3 +42,14 @@ crontab -e
 @reboot /usr/bin/python /home/pi/arkanoid.py
 ```
 and exit crontab editor (e.g. F2 for nano). You have to change ```/home/pi/arkanoid.py``` to your path to the program.
+
+## Setting game
+
+If you wanna change any beahviour of the game, you can do it in the start_set() procedure. This procedure is calling every time before start the game. You can change this variable:
+- surface - main desktop of the game, you can add or remove the line of the brick or prepare your own design of the wall
+- win, lost - this desktop is shown, when you win or lost a game
+- bx, by - starting position of the ball (x=0 - up, x=7 - down, y=0 - left, y=7 - right)
+- px, py - starting position of the paddle
+- dir, up - starting direction of the ball (default is up and right) (dir=0 - left, dir= - right, up=1 - up, up=0 - down)
+- bricks - number of the bricks
+- iter - if ball in iter cycles dont touch a brick, the trace of the ball is changed. This is necessary to complet the game.
